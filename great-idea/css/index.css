@@ -64,3 +64,80 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+h1 {
+	font-size: 26px;
+}
+
+section.overview {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	  }
+
+section.services {
+	display: flex;
+	align-content: flex-start;
+	border-top: 1px solid black;
+	border-bottom: 3px solid black;
+}
+
+#firstThree {
+
+}
+
+#secondThree {
+
+}
+
+.digitalDesign, .userExperience, .digitalMarketing, .webDevelopment, .iOS-Development, .androidDevelopment {
+	border: 1px solid black;
+	background-color: #F4F3F4;
+	margin: 5%;
+	width: 70%;
+	padding: 5%;
+}
+
+/* Buttons */
+
+#learnMore{
+border-radius: 10px;
+height: 35px;
+margin: 15px 0;
+}
+
+#learnMore:hover {
+color: purple;
+background-color: white;
+}
+
+/* Footer */
+
+.closingInfo {
+	display: flex;
+	margin: 10%;
+	
+}
+
+
+/* sideImage */
+
+#sideImage{
+
+}
+
+
+/* Footer */
+
+#copyright {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 75px;
+} 
